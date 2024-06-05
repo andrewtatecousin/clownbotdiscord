@@ -1,0 +1,51 @@
+module.exports = {
+	helpCmdPerPage: 10, //- Number of commands per page of help command
+	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
+	adminId: "452114802412748800", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "", //- Bot's Token
+	clientId: process.env.clientId || "", //- ID of the bot
+	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	port: 4200, //- Port of the API and Dashboard
+	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
+	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
+	serverDeafen: true, //- If you want bot to stay deafened
+	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
+	supportServer: "https://discord.gg/SxAkP6F6YB", //- Support Server Link
+	Issues: "https://google.com", //- Bug Report Link
+	permissions: 277083450689, //- Bot Inviting Permissions
+	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
+	twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
+	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
+	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
+	autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
+	debug: false, //- Debug mode
+	cookieSecret: "Fortnite", //- Cookie Secret
+	website: "http://localhost:4200", //- without the / at the end
+	// You need a lavalink server for this bot to work!!!!
+	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
+	nodes: [
+		{
+			identifier: "Main Node", //- Used for indentifier in stats commands.
+			host: "54.36.225.156", //- The host name or IP of the lavalink server.
+			port: 2333, // The port that lavalink is listening to. This must be a number!
+			password: "s4DarqP$&y", //- The password of the lavalink server.
+			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
+			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
+			version: "v3", //- The version of the lavalink server.
+			useversionpath: true, //- If you want to use the version path for the lavalink server.
+			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+		},
+	],
+	embedColor: "#ff91af", //- Color of the embeds, hex supported
+	presence: {
+		// PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
+		status: "dnd", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
+		activities: [
+			{
+				name: "random Indian songs on repeat", //- Status Text
+				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
+			},
+		],
+	},
+	iconURL: "https://cdn.discordapp.com/attachments/1169417577425023046/1169418629578756106/com.apple.Pasteboard.OAqEfL.png?ex=655554f8&is=6542dff8&hm=b2f517eabd6af9a19a7c8725c2352e16d87779022ab1848c9656a73c4efe746d&", //- This icon will be in every embed's author field
+};
