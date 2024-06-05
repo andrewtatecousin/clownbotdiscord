@@ -19,7 +19,7 @@ export default function Navbar() {
             fontWeight: 'bold',
             marginBottom: '30px',
             color: '#fff',
-        } } href='/'>Discord Music Bot</Link>
+        } } href='/'>Clown Bot</Link>
         <Button css={ {background: router.pathname == '/dashboard' ? '$primary' : '$gray100'} }
                 onClick={ () => window.location.pathname = '/dashboard' } style={ {marginBottom: '10px'} }>Dashboard</Button>
         <Button css={ {background: router.pathname == '/servers' ? '$primary' : '$gray100'} } color='default'

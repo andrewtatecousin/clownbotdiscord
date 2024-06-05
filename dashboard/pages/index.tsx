@@ -17,7 +17,7 @@ const Home = (_props: any) => {
     return (
         <Container>
             <Head>
-                <title>Discord Music Bot</title>
+                <title>Clown Bot</title>
             </Head>
             <Container css={ {
                 display: 'flex',
@@ -31,7 +31,7 @@ const Home = (_props: any) => {
                 zIndex: '$5'
             } }>
                 <Link css={ {fontSize: '$xl', fontWeight: '$semibold'} } href='/'>
-                    { data ? data.name : "Discord Music Bot" }
+                    { data ? data.name : "Clown Bot" }
                 </Link>
                 <Link color='text' css={ {fontSize: '$lg', fontWeight: '$medium', marginLeft: '20px'} } href='#'>
                     Home
@@ -53,9 +53,8 @@ const Home = (_props: any) => {
                 alignItems: 'center',
                 flexDirection: 'column',
             } }>
-                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>Discord Music Bot</Text>
-                <Text h3 css={ {color: '$gray800'} }>An advanced discord music bot, supports Spotify, SoundCloud,
-                    YouTube with Shuffling, Volume Control and Web Dashboard!</Text>
+                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>Clown Bot</Text>
+                <Text h3 css={ {color: '$gray800'} }>An advanced Discord music bot that supports Spotify, SoundCloud, and YouTube!</Text>
                 <Container css={ {display: 'flex', alignItems: 'center', justifyContent: 'center'} }>
                     <Button color="primary" onClick={ () => window.location.pathname = '/login' } shadow style={ {
                         marginTop: '1rem'

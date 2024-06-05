@@ -8,8 +8,7 @@ const command = new SlashCommand()
     return interaction.reply({
       embeds: [
         new MessageEmbed()
-          .setColor(clie
-                    nt.config.embedColor)
+          .setColor(client.config.embedColor)
           .setTitle(`Invite me to your server!`),
       ],
       components: [

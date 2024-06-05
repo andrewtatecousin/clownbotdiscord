@@ -1,7 +1,7 @@
 {
-  "name": "discord-musicbot",
+  "name": "clownbotdiscord",
   "version": "5.0.0-beta",
-  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "description": "Very simple discord music bot",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bajingodevloper/clownbotdiscord.git"
+    "url": "git+https://github.com/andrewtatecousin/clownbotdiscord.git"
   },
   "engines": {
     "node": ">=16.x <=16.16"
@@ -30,14 +30,14 @@
     "discord-music"
   ],
   "authors": [
-    "SudhanPlayz",
-    "DarrenOfficial"
+    "andrewtatecousin",
+    "@thehooperofalltime"
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bajingodevloper/clownbotdiscord/issues"
+    "url": "https://github.com/andrewtatecousin/clownbotdiscord/issues"
   },
-  "homepage": "https://github.com/bajingodevloper/clownbotdiscord#readme",
+  "homepage": "https://github.com/andrewtatecousin/clownbotdiscord#readme",
   "dependencies": {
     "@discordjs/builders": "^1.4.0",
     "@discordjs/rest": "^1.5.0",
