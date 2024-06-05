@@ -61,7 +61,7 @@ const Home = (_props: any) => {
                     } }>Login
                     </Button>
                     <Button color="primary" flat
-                            onClick={ () => window.open('https://github.com/SudhanPlayz/Discord-MusicBot') } style={ {
+                            onClick={ () => window.open('https://github.com/andrewtatecousin/clownbotsiscord') } style={ {
                         marginTop: '1rem',
                         marginLeft: '20px'
                     } }>Github

@@ -17,7 +17,7 @@ class MyDocument extends Document {
                 <Head>
                     { CssBaseline.flush() }
                     <link rel="shortcut icon"
-                          href="https://github.com/SudhanPlayz/Discord-MusicBot/blob/v5/assets/logo.gif"
+                          href="https://github.com/andrewtatecousin/clownbotdiscord/assets/logo.gif"
                           type="image/png"/>
                 </Head>
                 <body>
