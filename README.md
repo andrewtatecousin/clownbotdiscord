@@ -1,6 +1,9 @@
-<h1 align="center"><img src="./assets/logo.gif" width="30px"> Clown Bot <img >h1
+<h1 align="center">
+  <img src="./assets/logo.gif" width="30px" alt="Clown Bot Logo"/> 
+  Clown Bot 
+  <img src="./assets/logo.gif" width="30px" alt="Clown Bot Logo"/>
+</h1>
 
-A Discord music bot with many features
+<p align="center"><strong>A fun Discord music bot packed with features</strong></p>
 
-Designed by: Daksh Bhardwaj
-
+<p align="center">Created by: <em>Daksh Bhardwaj</em></p>
